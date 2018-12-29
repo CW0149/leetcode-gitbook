@@ -1,0 +1,402 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>字符串相乘 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="5.html" />
+    
+    
+    <link rel="prev" href="3.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    字符串
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="1.html">
+            
+                <a href="1.html">
+            
+                    
+                    无重复字符的最长子串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="2.html">
+            
+                <a href="2.html">
+            
+                    
+                    最长公共前缀
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="3.html">
+            
+                <a href="3.html">
+            
+                    
+                    字符串的排列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.4" data-path="4.html">
+            
+                <a href="4.html">
+            
+                    
+                    字符串相乘
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="5.html">
+            
+                <a href="5.html">
+            
+                    
+                    翻转字符串里的单词
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="6.html">
+            
+                <a href="6.html">
+            
+                    
+                    简化路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="7.html">
+            
+                <a href="7.html">
+            
+                    
+                    复原IP地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="8.html">
+            
+                <a href="8.html">
+            
+                    
+                    二进制求和
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >字符串相乘</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5B57;&#x7B26;&#x4E32;&#x76F8;&#x4E58;">&#x5B57;&#x7B26;&#x4E32;&#x76F8;&#x4E58;</h1>
+<p>2018-12-29</p>
+<h3 id="&#x95EE;&#x9898;">&#x95EE;&#x9898;</h3>
+<p>&#x7ED9;&#x5B9A;&#x4E24;&#x4E2A;&#x4EE5;&#x5B57;&#x7B26;&#x4E32;&#x5F62;&#x5F0F;&#x8868;&#x793A;&#x7684;&#x975E;&#x8D1F;&#x6574;&#x6570; num1 &#x548C; num2&#xFF0C;&#x8FD4;&#x56DE; num1 &#x548C; num2 &#x7684;&#x4E58;&#x79EF;&#xFF0C;&#x5B83;&#x4EEC;&#x7684;&#x4E58;&#x79EF;&#x4E5F;&#x8868;&#x793A;&#x4E3A;&#x5B57;&#x7B26;&#x4E32;&#x5F62;&#x5F0F;&#x3002;</p>
+<p>&#x793A;&#x4F8B; 1:</p>
+<pre><code>&#x8F93;&#x5165;: num1 = &quot;2&quot;, num2 = &quot;3&quot;
+&#x8F93;&#x51FA;: &quot;6&quot;
+</code></pre><p>&#x793A;&#x4F8B; 2:</p>
+<pre><code>&#x8F93;&#x5165;: num1 = &quot;123&quot;, num2 = &quot;456&quot;
+&#x8F93;&#x51FA;: &quot;56088&quot;
+</code></pre><p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>num1 &#x548C; num2 &#x7684;&#x957F;&#x5EA6;&#x5C0F;&#x4E8E;110&#x3002;</li>
+<li>num1 &#x548C; num2 &#x53EA;&#x5305;&#x542B;&#x6570;&#x5B57; 0-9&#x3002;</li>
+<li>num1 &#x548C; num2 &#x5747;&#x4E0D;&#x4EE5;&#x96F6;&#x5F00;&#x5934;&#xFF0C;&#x9664;&#x975E;&#x662F;&#x6570;&#x5B57; 0 &#x672C;&#x8EAB;&#x3002;</li>
+<li>&#x4E0D;&#x80FD;&#x4F7F;&#x7528;&#x4EFB;&#x4F55;&#x6807;&#x51C6;&#x5E93;&#x7684;&#x5927;&#x6570;&#x7C7B;&#x578B;&#xFF08;&#x6BD4;&#x5982; BigInteger&#xFF09;&#x6216;&#x76F4;&#x63A5;&#x5C06;&#x8F93;&#x5165;&#x8F6C;&#x6362;&#x4E3A;&#x6574;&#x6570;&#x6765;&#x5904;&#x7406;&#x3002;</li>
+</ul>
+<h3 id="&#x89E3;&#x7B54;">&#x89E3;&#x7B54;</h3>
+<pre><code>/**
+ * @param {string} num1
+ * @param {string} num2
+ * @return {string}
+ */
+var multiply = function(num1, num2) {
+    var chArr = []
+    for (var i = 0; i &lt; num1.length; i += 1) {
+        for (var j = 0; j &lt; num2.length; j += 1) {
+            chArr[i + j] = (chArr[i + j] || 0) + num1[i] * num2[j]
+        }
+    }
+    var index = chArr.length - 1, carry = 0, validIndex = 0;
+    while(index &gt;= 0) {
+        chArr[index] += carry;
+        carry = Math.floor(chArr[index] / 10);
+        chArr[index] = chArr[index] % 10;
+        index -= 1;
+    }
+    if (!carry) {
+        while(!chArr[validIndex] &amp;&amp; (validIndex &lt; chArr.length)) {
+            validIndex += 1;
+        }
+        return chArr.slice(validIndex).join(&apos;&apos;) || &apos;0&apos;
+    } else {
+        return carry + chArr.join(&apos;&apos;);
+    }
+};
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="3.html" class="navigation navigation-prev " aria-label="Previous page: 字符串的排列">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="5.html" class="navigation navigation-next " aria-label="Next page: 翻转字符串里的单词">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"字符串相乘","level":"1.2.4","depth":2,"next":{"title":"翻转字符串里的单词","level":"1.2.5","depth":2,"path":"string/5.md","ref":"string/5.md","articles":[]},"previous":{"title":"字符串的排列","level":"1.2.3","depth":2,"path":"string/3.md","ref":"string/3.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"string/4.md","mtime":"2018-12-29T07:13:41.504Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-29T02:41:34.942Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
