@@ -14,3 +14,7 @@
     * [简化路径](string/6.md)
     * [复原IP地址](string/7.md)
     * [二进制求和](string/8.md)
+* [数组](array/README.md)
+    * [两数之和](array/1.md)
+    * [三数之和](array/2.md)
+    * [四数之和](array/3.md)
