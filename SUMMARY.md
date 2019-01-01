@@ -14,4 +14,7 @@
     * [两数之和](array/1.md)
     * [三数之和](array/2.md)
     * [四数之和](array/3.md)
+    * [岛屿的最大面积](array/4.md)
+    * [合并区间](array/5.md)
+    * [最长连续递增序列](array/6.md)
 
